@@ -97,7 +97,7 @@ def mouseClicked():
   
   In this class, we practiced connecting the line of breadboard and arduino to turn the light on. 
   I made 4 different versions of turnging the light. 
-  
+ ```.c
   void setup()
 {
   pinMode(13, OUTPUT);
@@ -125,4 +125,5 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+ ```
+ ![circuit1](circuit1.png)
