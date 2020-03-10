@@ -29,15 +29,15 @@ def mouseClicked():
  ```
     
     
-    2. What did we learn? 
+  2. What did we learn? 
     --> We learn how to make circles as the way we want circle to appear. We created many versions of coding to make circles. 
     
     
-    Homework : 1. Add lines from the middle of the window to each circle 
-               2. Add lines from circle to circle
+  Homework : 1. Add lines from the middle of the window to each circle 
+              2. Add lines from circle to circle
                
                
-               
+   ```            
  def setup():
   size(600, 600)
   background(255)
@@ -88,9 +88,9 @@ def mouseClicked():
         circle(400, 200, 50)
         circle(400, 400, 50)
         circle(400, 300, 50)
+        ```
         
-        
-  We made a dice and guessed other people's secret number. We learned how to randomize the dice and also we learned the location of the dots. 
+We made a dice and guessed other people's secret number. We learned how to randomize the dice and also we learned the location of the dots. 
   
   
   
