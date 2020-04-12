@@ -170,7 +170,6 @@ In your opinion, should people enable access to the resources of their personal 
         
     delay(100)
     ``` 
-   I watched video for five times but I couldn't find our what are the two conditions.. 
    
 4. Representing a community
    ```
