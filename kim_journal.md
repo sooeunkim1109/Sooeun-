@@ -160,8 +160,12 @@ In your opinion, should people enable access to the resources of their personal 
     #bounderies conditions
     if posx > 500:
         posx = 500
-    if posx < 500:
-        posx = 500
+    if posy < 500:
+        posy = 500
+    if posy < 0:
+        posy = 0
+    if posx < 0:
+        posx = 0
         
         
     delay(100)
