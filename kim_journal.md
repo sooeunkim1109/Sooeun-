@@ -168,7 +168,7 @@ In your opinion, should people enable access to the resources of their personal 
     ``` 
    I watched video for five times but I couldn't find our what are the two conditions.. 
    
-  Representing a community
+4. Representing a community
    ```
   #definition of variables
 x = [300, 250, 200, 150, 100, 50, 25, 20, 15, 10]
