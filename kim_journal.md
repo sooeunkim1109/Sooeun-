@@ -170,18 +170,18 @@ In your opinion, should people enable access to the resources of their personal 
    
 4. Representing a community
    ```
-  #definition of variables
-x = [300, 250, 200, 150, 100, 50, 25, 20, 15, 10]
-y = [300, 250, 200, 150, 100, 50, 25, 20, 15, 10]
+    #definition of variables
+     x = [300, 250, 200, 150, 100, 50, 25, 20, 15, 10]
+     y = [300, 250, 200, 150, 100, 50, 25, 20, 15, 10]
 
 
-def setup():
-    size(500,500)
+    def setup():
+        size(500,500)
     
-def draw():
-    global x, y
-    background(255)
-    strokeWeight(2)
+    def draw():
+        global x, y
+        background(255)
+        strokeWeight(2)
     
     #create 1st individual
     for i in range(10): 
@@ -194,7 +194,8 @@ def draw():
             x[i] = 500
    
     delay(100)
-```
+    ```
+
 - At first, I just put for i in range(10) instead og (2), and it kept saying that there is an error. Then I reasearched about it and I found out that I should set 10 random variables, if I want to make 10 different circles. 
 
 5. What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.
