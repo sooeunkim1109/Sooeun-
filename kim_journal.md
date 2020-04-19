@@ -208,6 +208,24 @@ In your opinion, should people enable access to the resources of their personal 
 - Also we can set the limitation of place. For example we can try the simulation in 3 different sizes of boxs. Then we can find out that if the smaller the places, the number that the circles are overlapping will increase = which means if will be easier to get infected 
 
 <Tasks for week 29>
+1. This code is for repeating "bears" for hundred times. ( I couldn't do the exception for (1, bear) output..)
+  ```
+  for i in range(0,100):
+    print(i, "bears")
+  ```
+2. This code can print the years from 1900, 2000
+  ```
+  for i in range(1900,2000):
+    print("The year is", i)
+   ```
+3. This code can prints the conversion for Celsius to Fahrenheit from 0 C to 100 C 
+(I thought this code would be print out the output that I want, but it said range() integer start argument expected, got float.) 
+ ```
+ for i in range(0,100):
+    for j in range(32.0, 133.8, 1.8):
+        print( i, "C are", j)
+ ```
+ 
 1. This code can simulate the situation that no one is infected. ==> Individuals 
   ```   
    #definition of variables
