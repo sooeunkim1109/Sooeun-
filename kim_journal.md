@@ -221,9 +221,11 @@ In your opinion, should people enable access to the resources of their personal 
 3. This code can prints the conversion for Celsius to Fahrenheit from 0 C to 100 C 
 (I thought this code would be print out the output that I want, but it said range() integer start argument expected, got float.) 
  ```
- for i in range(0,100):
-    for j in range(32.0, 133.8, 1.8):
-        print( i, "C are", j)
+celsius = 0
+
+for celsius in range(0, 101, 1):
+    fahrenheit = 9 / 5 * celsius + 32
+    print(celsius, "C are", fahrenheit, "F")
  ```
  
 1. This code can simulate the situation that no one is infected. ==> Individuals 
