@@ -310,5 +310,29 @@ def baragraph():
     fill(0, 255, 0)
     rect(40, 480, 40 + healthy, 10)
   ``` 
-  
+<Tasks for week 31> 
+
+1. Creating days for individuals 
+```
+days. append() #fill 
+
+#when infected (Anythinh between 5 to 30 days)
+days[ind] = (5,30)
+h[ind] = 'Sick' 
+
+#Change individuals to recovered
+if h[ind] == "Sick":
+    days[ind] == 1
+    if days[ind] == 0 :
+        #1 - become "Recovered" 
+        h[ind] == 'Healthy'
+        #move individuals 
+        for ind in range(10):
+            x[ind] = x[ind] + random(-10,10)
+            y[ind] = y[ind] + random(-10,10) 
+            if x[ind] > 500:
+                x[ind] = 500
+```
+
+
  
